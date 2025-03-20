@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Level Up Launcher</title>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <!-- <meta
+      http-equiv="Content-Security-Policy"
+      content="frame-src 'self' https://shop.vnggames.com/ http://shop.vnggames.com/; default-src 'self' ; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' https://lh3.googleusercontent.com data:"
+    /> -->
+
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="img-src * data: ; default-src 'self' 'unsafe-inline' blob: data:
+    https://fonts.gstatic.com
+    https://fonts.googleapis.com
+    https://lh3.googleusercontent.com
+    https://launcher-tracking.vnggames.net
+    https://sentry.yoverse.io
+    https://test-sso.vngecn.com
+    https://test-accounts.vngecn.com
+    https://test-nexus.vnggames.net
+    https://test-cdn-nexus.vnggames.net
+    https://stg-sso.vngecn.com
+    https://stg-accounts.vnggames.app
+    https://stg-nexus.vnggames.net
+    https://sso.vnggames.com
+    https://myaccount.vnggames.com
+    https://shop.vnggames.com
+    https://nexus.vnggames.com
+    https://cdn-nexus.vnggames.com
+    sentry-ipc://sentry-electron.scope
+    sentry-ipc://sentry-electron.envelope
+    http://giftcode.vnggames.com
+    "
+    />
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

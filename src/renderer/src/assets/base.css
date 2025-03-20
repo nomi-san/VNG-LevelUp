@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900");
+@import "./typography.css";
+@import "./shadow.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --neutral-50: #ffffff;
+    --neutral-100: #f4f6f7;
+    --neutral-200: #cbd1d6;
+    --neutral-300: #a7b1b9;
+    --neutral-400: #7b8895;
+    --neutral-500: #606d7a;
+    --neutral-600: #474e57;
+    --neutral-700: #3f444b;
+    --neutral-800: #2f3237;
+    --neutral-900: #22252a;
+    --red-50: #feeaea;
+    --red-200: #fed7d7;
+    --red-300: #f88282;
+    --red-400: #f65959;
+    --red-500: #f42f2f;
+    --red-600: #e53e3e;
+    --red-700: #c32626;
+    --green-50: #ebfaec;
+    --green-500: #33cc40;
+    --orange-300: #f69d7a;
+    --orange-400: #f37d4e;
+    --orange-500: #f05c22;
+    --orange-600: #de5019;
+    --yellow-50: #fef6ea;
+    --yellow-100: #feeed6;
+    --yellow-200: #fdddad;
+    --yellow-300: #fbcb84;
+    --yellow-400: #faba5b;
+    --yellow-500: #f9a932;
+    --yellow-600: #e0982d;
+    --yellow-700: #c78728;
+    --yellow-800: #ae7623;
+    --yellow-900: #95651e;
+    --blue-50: #e5f2ff;
+    --blue-300: #66b2ff;
+    --blue-500: #007fff;
+    --blue-800: #0059b2;
+    --gradient-start: #f05c22;
+    --gradient-end: #f9bc2c;
+    --translucent: hsla(218, 8%, 20%, 0.5);
+    --transparent: hsla(0, 0, 0, 0);
+
+    --progress-background: var(--neutral-700);
+    --progress-indicator: var(--primary-gradient);
+
+    --background: var(--neutral-900);
+    --foreground: var(--neutral-50);
+    --card: 20 14.3% 4.1%;
+    --card-foreground: 60 9.1% 97.8%;
+    --popover: var(--neutral-800);
+    --popover-foreground: var(--neutral-50);
+    --primary: 60 9.1% 97.8%;
+    --primary-foreground: 24 9.8% 10%;
+    --secondary: 12 6.5% 15.1%;
+    --secondary-foreground: 60 9.1% 97.8%;
+    --muted: 12 6.5% 15.1%;
+    --muted-foreground: 24 5.4% 63.9%;
+    --accent: var(--neutral-600);
+    --accent-foreground: 60 9.1% 97.8%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 60 9.1% 97.8%;
+    --border: hsl(12, 6.5%, 15.1%, 0.3);
+    --input: 12 6.5% 15.1%;
+    --ring: 24 5.7% 82.9%;
+    --radius: 0.5rem;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-transparent text-foreground;
+  }
+}

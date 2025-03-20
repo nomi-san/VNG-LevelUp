@@ -1,0 +1,3 @@
+provider: generic
+url: "https://cdn-nexus.vnggames.com/launcher/installer/download"
+updaterCacheDirName: nexus-updater

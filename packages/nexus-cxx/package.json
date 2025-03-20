@@ -1,0 +1,14 @@
+{
+  "name": "nexus-cxx",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "node-gyp-build"
+  },
+  "gypfile": true,
+  "dependencies": {
+    "node-addon-api": "^8.1.0",
+    "node-gyp-build": "^4.8.2"
+  }
+}

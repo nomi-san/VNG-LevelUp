@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .heading-1 {
+    @apply text-5xl font-extrabold;
+  }
+
+  .heading-2 {
+    @apply text-4xl font-bold;
+  }
+
+  .heading-3 {
+    @apply text-3xl font-bold;
+  }
+
+  .heading-4 {
+    @apply text-xl font-bold leading-8 tracking-[-0.005em];
+  }
+
+  .body-18-bold {
+    @apply text-lg font-bold leading-6 tracking-wide;
+  }
+
+  .body-18-regular {
+    @apply text-lg font-normal tracking-wide;
+  }
+
+  .body-16-bold {
+    @apply text-base font-bold tracking-wide;
+  }
+
+  .body-16-regular {
+    @apply text-base font-normal leading-7 tracking-wide;
+  }
+
+  .body-14-bold {
+    @apply text-sm font-bold leading-6 tracking-wide;
+  }
+
+  .body-14-regular {
+    @apply text-sm font-normal leading-6 tracking-wide;
+  }
+
+  .caption-12-bold {
+    @apply text-xs font-bold leading-[14px] tracking-wide;
+  }
+
+  .caption-12-regular {
+    @apply text-xs font-normal leading-[14px] tracking-wide;
+  }
+
+  .caption-10-bold {
+    @apply text-[10px] font-bold leading-[14px] tracking-wide;
+  }
+
+  .caption-10-regular {
+    @apply text-[10px] font-normal leading-[14px] tracking-wide;
+  }
+
+  .blockquote-text {
+    @apply text-base font-normal italic;
+  }
+
+  .table-text {
+    @apply text-base font-normal;
+  }
+
+  .list-text {
+    @apply text-base font-normal;
+  }
+
+  .inline-code-text {
+    @apply text-sm font-bold;
+  }
+
+  .lead-text {
+    @apply text-xl font-normal;
+  }
+
+  .large-text {
+    @apply text-lg font-semibold;
+  }
+
+  .small-text {
+    @apply text-xs font-normal;
+  }
+
+  .subtle-text {
+    @apply text-sm font-normal;
+  }
+
+  .subtle-bold {
+    @apply text-sm font-bold;
+  }
+}

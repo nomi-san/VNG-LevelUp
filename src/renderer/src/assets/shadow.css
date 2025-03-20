@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .neutral-bottom-20 {
+    box-shadow: 0px 4px 6px 0px #0000001f;
+  }
+
+  .shadow-drop {
+    box-shadow: 0px 0px 1.5px 0px #00000040;
+  }
+
+  .shadow-drop-orange {
+    box-shadow: 0px 0px 4px 0px #f05c22;
+  }
+
+  .white-shadow-drop {
+    box-shadow: 0px 0px 20px 0px #ffffff80;
+    backdrop-filter: blur(4px);
+  }
+
+  .solid-shadow-drop {
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 0px 12px 0px #ffffff80;
+  }
+
+  .white-shadow-hover-drop {
+    box-shadow: 0px 0px 40px 0px #ffffff40;
+  }
+
+  .theme-light {
+    box-shadow: 0px 20px 24px -10px #110C221A;
+  }
+}
