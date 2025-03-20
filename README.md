@@ -1,34 +1,8 @@
-# nexus
+# VNG Level Up Launcher
 
-An Electron application with React and TypeScript
+- Electron + React
+- Nexus SDK
 
-## Recommended IDE Setup
+![image](https://github.com/user-attachments/assets/be371b78-7dcd-4a86-b102-5bc94c0c70e2)
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-
-## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+![image](https://github.com/user-attachments/assets/d9409408-6e75-4e33-93d1-e91cc8990c2a)
